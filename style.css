@@ -185,6 +185,8 @@ body {
   right: 50%;
   transform: translate(-50%, 0%);
   z-index: -10;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Preview */

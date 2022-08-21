@@ -53,6 +53,7 @@
   .title {
     font-size: 72px;
   }
+
   .header__item:not(:last-child) {
     margin-right: 23px;
   }
@@ -63,9 +64,49 @@
 
   .destinations {
     margin-top: 55px;
-}
+  }
 }
 
+@media(max-width: 1020px) {
+
+  .preview__container {
+    padding-right: 5px;
+  }
+  .stories__items__wrapper {
+    padding-top: 18px;
+  }
+
+  .stories {
+    margin-top: 15px;
+  }
+
+  .steps {
+    margin-top: 273px;
+  }
+
+  .steps__item-shareus {
+    padding-right: 20px;
+    transform: translateX(27px);
+  }
+
+
+
+  .stories__description-text {
+    font-size: 16px;
+  }
+
+  .stories__description-title {
+    font-size: 28px;
+  }
+
+  .stories__description__btn-text {
+    font-size: 17px;
+  }
+
+  .footer__label {
+    padding-right: 202px;
+  }
+}
 
 @media (max-width: 391px) {
 
