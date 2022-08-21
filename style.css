@@ -67,7 +67,7 @@ body {
 
 .logo {
   display: flex;
-
+  flex: auto;
 }
 
 .logo__img {
@@ -185,6 +185,8 @@ body {
   right: 50%;
   transform: translate(-50%, 0%);
   z-index: -10;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Preview */
@@ -442,7 +444,6 @@ body {
 
 .stories__items {
   background: url(image/img/jpg/stories__bckgrnd.jpg) top center/ cover no-repeat;
-  width: 1445px;
   height: 1331px;
   margin-top: 45px;
   position: relative;
@@ -495,6 +496,7 @@ body {
 
 .stories__description-text {
   padding-top: 24px;
+  padding-right: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -575,6 +577,7 @@ body {
 .footer__nav {
   padding-top: 14px;
   padding-bottom: 14px;
+  padding-right: 5px;
 }
 
 .footer__items {
