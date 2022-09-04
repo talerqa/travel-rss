@@ -45,13 +45,41 @@
     transform: translateX(89px);
   }
 
-
-
+  .steps {
+    margin-top: 200px;
+  }
 }
+
+@media(max-width:1150px) {
+  .title {
+    padding-right: 184px;
+    font-size: 70px;
+  }
+
+  .preview__container {
+    padding-top: 32px;
+    padding-right: 5px;
+  }
+
+  .steps {
+    margin-top: 130px;
+  }
+
+  .destinations {
+    margin-top: 30px;
+  }
+
+  .stories {
+    margin-top: 20px;
+  }
+}
+
 
 @media(max-width: 1080px) {
   .title {
-    font-size: 72px;
+    font-size: 58px;
+    padding-right: 5px;
+    text-align: center;
   }
 
   .header__item:not(:last-child) {
@@ -59,11 +87,19 @@
   }
 
   .steps {
-    margin-top: 266px;
+    margin-top: 180px;
   }
 
   .destinations {
     margin-top: 55px;
+  }
+
+  .preview__description {
+    text-align: center;
+  }
+
+  .footer__label {
+    padding-right: 280px;
   }
 }
 
@@ -72,6 +108,7 @@
   .preview__container {
     padding-right: 5px;
   }
+
   .stories__items__wrapper {
     padding-top: 18px;
   }
@@ -105,6 +142,38 @@
 
   .footer__label {
     padding-right: 202px;
+  }
+}
+
+@media(max-width:910px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .steps {
+    margin-top: 103px;
+  }
+
+  .header__menu {
+    padding-left: 47px;
+    padding-right: 55px;
+  }
+
+  .btn__search {
+    margin: 7px 5px 5px 0px;
+  }
+
+}
+
+@media(max-width: 885px) {
+
+  .header__menu {
+    padding-left: 36px;
+    padding-right: 41px;
+}
+
+  .steps__item-shareus {
+    padding-right: 35px;
   }
 }
 
@@ -189,15 +258,14 @@
 
   .sign-pop-up {
     width: 340px;
-    transform: translate(-50%, -45%);
-
+    transform: translate(-45%, -45%);
   }
+
 
   .login-pop-up {
     width: 340px;
-    transform: translate(-50%, -45%);
-  }
-
+    transform: translate(-45%, -45%);
+}
 
 
   /* menu burger */
@@ -316,17 +384,20 @@
   }
 
   .steps__items {
-    padding-left: 15px;
+    padding-left: 35px;
     padding-right: 15px;
     justify-content: space-between;
 
   }
 
   .steps__item-tellus {
-    padding-right: 45px;
+    padding-right: 10px;
   }
 
   .steps__item-shareus {
+    padding-right: 45px;
+  }
+  .steps__item-tellus-recommendation {
     padding-right: 20px;
   }
 
@@ -437,8 +508,8 @@
   .destinations__arrow-left {
     position: absolute;
     z-index: 10;
-    top: 87.6%;
-    left: 6.4%;
+    top: 575px;
+    left: 31px;
     transform: rotate(180deg);
     cursor: pointer;
     background: transparent;
@@ -447,8 +518,8 @@
   .destinations__arrow-right {
     position: absolute;
     z-index: 10;
-    top: 87.6%;
-    right: 6.4%;
+    top: 575px;
+    left: 344px;
     cursor: pointer;
     background: transparent;
   }
@@ -513,6 +584,10 @@
 
   /* stories */
 
+  .stories {
+    margin-top: 66px;
+  }
+
   .stories__container {
     width: 390px;
     height: 735px;
@@ -572,7 +647,7 @@
   }
 
   .stories__btn {
-    margin-top: 4px;
+    margin-top: 6px;
     border-radius: 10px;
   }
 
@@ -580,13 +655,10 @@
     padding-top: 15px;
 
   }
-
-
   /* footer */
-
   .footer {
-    top: -78px;
-    left: 1%;
+    top: -61px;
+    left: 0%;
   }
 
   .footer__nav {
