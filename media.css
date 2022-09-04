@@ -242,7 +242,7 @@
     position: absolute;
     z-index: 10;
     top: 0;
-    right: 4%;
+    left: 332px;
     margin-top: 45px;
     display: block;
   }
@@ -395,10 +395,11 @@
   }
 
   .steps__item-shareus {
-    padding-right: 45px;
-  }
-  .steps__item-tellus-recommendation {
     padding-right: 20px;
+  }
+
+  .steps__item-tellus-recommendation {
+    padding-left: 24px;
   }
 
   .steps__item__img {
