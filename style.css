@@ -1,3 +1,4 @@
+
 html {
   scroll-behavior: smooth;
 
@@ -1037,5 +1038,3 @@ body {
 .item__center {
   transform: translateX(0%);
 }
-
-
